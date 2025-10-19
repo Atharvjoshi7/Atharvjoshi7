@@ -12,6 +12,7 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
@@ -27,10 +28,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Verify generated files
+        run: |
+          echo "Generated files:"
+          ls dist
+
       - name: Deploy to Output Branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
+          force_orphan: true
           commit_message: "Update snake animation [skip ci]"
