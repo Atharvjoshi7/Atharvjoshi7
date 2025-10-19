@@ -1,7 +1,8 @@
-name: GitHub Snake Game
+name: GitHub Snake Game 🐍
 
 on:
   schedule:
+    # Runs every day at midnight UTC
     - cron: "0 0 * * *"
   workflow_dispatch:
   push:
@@ -9,16 +10,20 @@ on:
       - main
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
 
     steps:
+      # Step 1: Checkout the repository with full history
       - name: Checkout Repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
-      - name: Generate GitHub Contributions Snake Animations
+      # Step 2: Generate the snake animation
+      - name: Generate GitHub Contributions Snake
         uses: Platane/snk@v3
+        id: snake-gif
         with:
           github_user_name: Atharvjoshi7
           outputs: |
@@ -28,16 +33,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # Step 3: List the generated files to confirm
       - name: Verify generated files
-        run: |
-          echo "Generated files:"
-          ls dist
+        run: ls -R dist
 
-      - name: Deploy to Output Branch
+      # Step 4: Deploy to 'output' branch
+      - name: Push Snake to Output Branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
           publish_branch: output
+          publish_dir: ./dist
           force_orphan: true
-          commit_message: "Update snake animation [skip ci]"
+          commit_message: "Generate Snake animation [skip ci]"
