@@ -76,27 +76,3 @@
 </div>
 
 </div>
-
----
-
-### 🪄 Interactive Styling (for GitHub Pages)
-If you host this README as a portfolio page, add this **CSS snippet** to style your interactive buttons beautifully:
-
-```html
-<style>
-  #buttons button {
-    background-color: #1e293b;
-    color: #00BFFF;
-    border: 2px solid #00BFFF;
-    padding: 10px 20px;
-    border-radius: 12px;
-    margin: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-  #buttons button:hover {
-    background-color: #00BFFF;
-    color: white;
-    transform: scale(1.05);
-  }
-</style>
