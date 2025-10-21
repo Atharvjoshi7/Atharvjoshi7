@@ -38,11 +38,14 @@ jobs:
         run: ls -R dist
 
       # Step 4: Deploy to 'output' branch
-      - name: Push Snake to Output Branch
+      - name: Deploy to Output Branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: output
           publish_dir: ./dist
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
           force_orphan: true
-          commit_message: "Generate Snake animation [skip ci]"
+          commit_message: "🐍 Update Snake animation [skip ci]"
+
