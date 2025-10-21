@@ -37,42 +37,50 @@
 ---
 
 ## 🎮 Interactive Section
+<p align="center">
+  <a href="#🐍-github-snake-game">
+    <img src="https://img.shields.io/badge/Snake%20Game-🐍-00BFFF?style=for-the-badge&logo=github" />
+  </a>
+  <a href="#💡-featured-projects">
+    <img src="https://img.shields.io/badge/Projects-💡-00BFFF?style=for-the-badge&logo=github" />
+  </a>
+  <a href="#🌐-connect-with-me">
+    <img src="https://img.shields.io/badge/Connect-🌐-00BFFF?style=for-the-badge&logo=github" />
+  </a>
+</p>
 
-<div align="center">
+---
 
-<!-- Buttons -->
-<div id="buttons">
-  <a href="#snake"><button>🐍 Snake Game</button></a>
-  <a href="#projects"><button>💡 Featured Projects</button></a>
-  <a href="#connect"><button>🌐 Connect</button></a>
-</div>
+### 🐍 GitHub Snake Game
+<p align="center">
+  <img src="https://github.com/Atharvjoshi7/Atharvjoshi7/blob/output/github-snake.svg" alt="snake animation" width="90%" />
+  <br/>
+  <img src="https://github.com/Atharvjoshi7/Atharvjoshi7/blob/output/ocean.gif" alt="snake animation ocean" width="90%" />
+</p>
 
-<!-- Snake -->
-<div id="snake">
-  <h3>🐍 GitHub Snake Game</h3>
-  <img src="https://github.com/Atharvjoshi7/Atharvjoshi7/blob/output/github-snake.svg" alt="snake animation" width="90%">
-  <img src="https://github.com/Atharvjoshi7/Atharvjoshi7/blob/output/ocean.gif" alt="snake animation ocean" width="90%">
-</div>
+---
 
-<!-- Featured Projects -->
-<div id="projects">
-  <h3>💡 Featured Projects</h3>
-  <table>
-    <tr>
-      <td><a href="https://github.com/Atharvjoshi7/Portfolio"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Atharvjoshi7&repo=Portfolio&theme=tokyonight" /></a></td>
-      <td><a href="https://github.com/Atharvjoshi7/AI-Assistant"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Atharvjoshi7&repo=AI-Assistant&theme=tokyonight" /></a></td>
-    </tr>
-  </table>
-</div>
+### 💡 Featured Projects
+<p align="center">
+  <a href="https://github.com/Atharvjoshi7/Portfolio">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Atharvjoshi7&repo=Portfolio&theme=tokyonight" />
+  </a>
+  <a href="https://github.com/Atharvjoshi7/AI-Assistant">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Atharvjoshi7&repo=AI-Assistant&theme=tokyonight" />
+  </a>
+</p>
 
-<!-- Connect -->
-<div id="connect">
-  <h3>🌐 Connect with Me</h3>
-  <p>
-    <a href="https://linkedin.com/in/atharvjoshi7"><img src="https://skillicons.dev/icons?i=linkedin" width="40"/></a>
-    <a href="mailto:atharvjoshi7@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="40"/></a>
-    <a href="https://x.com/atharvjoshi7"><img src="https://skillicons.dev/icons?i=twitter" width="40"/></a>
-  </p>
-</div>
+---
 
-</div>
+### 🌐 Connect with Me
+<p align="center">
+  <a href="https://linkedin.com/in/atharvjoshi7"><img src="https://skillicons.dev/icons?i=linkedin" width="40"/></a>
+  <a href="mailto:atharvjoshi7@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="40"/></a>
+  <a href="https://x.com/atharvjoshi7"><img src="https://skillicons.dev/icons?i=twitter" width="40"/></a>
+</p>
+
+---
+
+<p align="center">
+  <sub>✨ Built with ❤️ by <b>Atharv Joshi</b> | Last updated: <!-- date will auto-update from commits --></sub>
+</p>
