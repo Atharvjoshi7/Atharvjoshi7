@@ -37,38 +37,18 @@
 ---
 
 ## 🎮 Interactive Section
-<p align="center">
-  <h3 align="center">🐍 GitHub Snake Game</h3>
+
+### 🐍 GitHub Snake Game
 <p align="center">
   <img src="https://github.com/Atharvjoshi7/Atharvjoshi7/blob/output/github-snake.svg" alt="GitHub Snake animation" width="90%" />
 </p>
 
+<p align="center">
   <a href="#💡-featured-projects">
     <img src="https://img.shields.io/badge/Projects-💡-00BFFF?style=for-the-badge&logo=github" />
   </a>
   <a href="#🌐-connect-with-me">
     <img src="https://img.shields.io/badge/Connect-🌐-00BFFF?style=for-the-badge&logo=github" />
-  </a>
-</p>
-
----
-
-### 🐍 GitHub Snake Game
-<p align="center">
-  <img src="https://github.com/Atharvjoshi7/Atharvjoshi7/blob/output/github-snake.svg" alt="snake animation" width="90%" />
-  <br/>
-  <img src="https://github.com/Atharvjoshi7/Atharvjoshi7/blob/output/ocean.gif" alt="snake animation ocean" width="90%" />
-</p>
-
----
-
-### 💡 Featured Projects
-<p align="center">
-  <a href="https://github.com/Atharvjoshi7/Portfolio">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Atharvjoshi7&repo=Portfolio&theme=tokyonight" />
-  </a>
-  <a href="https://github.com/Atharvjoshi7/AI-Assistant">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Atharvjoshi7&repo=AI-Assistant&theme=tokyonight" />
   </a>
 </p>
 
@@ -84,5 +64,5 @@
 ---
 
 <p align="center">
-  <sub>✨ Built with ❤️ by <b>Atharv Joshi</b> | Last updated: <!-- date will auto-update from commits --></sub>
+  <sub>✨ Built with ❤️ by <b>Atharv Joshi</b> | Last updated: <!-- auto-updated on commit --></sub>
 </p>
