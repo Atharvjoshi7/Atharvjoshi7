@@ -42,23 +42,13 @@
 <p align="center">
   <img src="https://github.com/Atharvjoshi7/Atharvjoshi7/blob/output/github-snake.svg" alt="GitHub Snake animation" width="90%" />
 </p>
-
-<p align="center">
-  <a href="#💡-featured-projects">
-    <img src="https://img.shields.io/badge/Projects-💡-00BFFF?style=for-the-badge&logo=github" />
-  </a>
-  <a href="#🌐-connect-with-me">
-    <img src="https://img.shields.io/badge/Connect-🌐-00BFFF?style=for-the-badge&logo=github" />
-  </a>
-</p>
-
 ---
 
 ### 🌐 Connect with Me
 <p align="center">
-  <a href="https://linkedin.com/in/atharvjoshi7"><img src="https://skillicons.dev/icons?i=linkedin" width="40"/></a>
-  <a href="mailto:atharvjoshi7@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="40"/></a>
-  <a href="https://x.com/atharvjoshi7"><img src="https://skillicons.dev/icons?i=twitter" width="40"/></a>
+  <a href="https://linkedin.com/in/atharv-joshi-work"><img src="https://skillicons.dev/icons?i=linkedin" width="40"/></a>
+  <a href="mailto:atharvjoshi2021@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="40"/></a>
+  <a href="https://x.com/joshi_atha65558"><img src="https://skillicons.dev/icons?i=twitter" width="40"/></a>
 </p>
 
 ---
