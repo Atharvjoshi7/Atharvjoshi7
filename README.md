@@ -36,9 +36,6 @@
 
 ---
 
-## 🎮 Interactive Section
-
-### 🐍 GitHub Snake Game
 <p align="center">
   <img src="https://github.com/Atharvjoshi7/Atharvjoshi7/blob/output/github-snake.svg" alt="GitHub Snake animation" width="90%" />
 </p>
